@@ -1,0 +1,10 @@
+# Не запрещаем print; базовые ошибки/импорты/упрощения
+line-length = 100
+target-version = "py311"
+
+# Минимальный набор правил: pycodestyle (E), pyflakes (F), isort (I), pyupgrade (UP)
+select = ["E", "F", "I", "UP"]
+
+ignore = [
+  # Ничего не игнорируем по умолчанию
+]
