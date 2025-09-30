@@ -2,8 +2,8 @@ import importlib
 import io
 import sys
 import types
-import pytest
 
+import pytest
 
 def _import_tasks():
     try:
